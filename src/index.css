@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base reset styles */
+/* * {
+  @apply p-0 m-0 box-border font-sans;
+}
+
+a {
+  @apply no-underline text-gray-600;
+}
+
+li {
+  @apply list-none;
+} */
+
+/* Button styles */
+.btns {
+  @apply px-4 py-2 mr-1.5 border border-gray-300 rounded text-gray-800 cursor-pointer bg-transparent;
+}
